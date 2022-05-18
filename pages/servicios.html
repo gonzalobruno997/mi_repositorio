@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>registro</title>
+</head>
+<body class="body_servicios">
+    <header class="header_servicios">
+        <div class="logo">world<i class="fa-solid fa-earth-americas"></i><span>fish</span></div>
+        <nav class="nav1">
+            <ul type="square">
+                <li class="nav__li"><i class="fa-solid fa-house"></i><a href="../index.html">menu principal</a></li>
+                <li class="nav__li"><i class="fa-solid fa-fish"></i><a href="productos.html">productos</a></li>
+                <li class="nav__li"><i class="fa-solid fa-address-card"></i><a href="./contacto.html">contacto</a></li>
+                <li class="nav__li"><i class="fa-solid fa-location-dot"></i><a href="./nosotros.html">ir a ubicacion</a></li>
+                <li class="nav__li"><i class="fa-solid fa-plane-up"></i><a href="https://google.com" target="_blank">ir a google</a></li>
+            </ul>
+        </nav>
+    </header>
+            <div>
+                <div class="div-servicios">
+                    <p>registrandote como cliente vas a obtener un codigo de 10% de descuento en el total de tu compra y eso incluye a todos nuestros productos en tanto el beneficio asignado no te limita en nada. El codigo de descuento te sera enviado por e-mail en la brevedad, anotarse es opcional y gratuito asi que ¡no dudes en hacerlo!. Se comunica world fish con ustedes</p>
+                </div>
+            </div>
+            <section class="form-register">
+                <h4>formulario de registro</h4><br>
+                <form class="form__3" action="enviar.php" method="post" enctype="text/plain">
+                    <label for="name1">Nombre</label>
+                    <input class="controls" type="text" name="name1"required><br>
+                    <label for="apellido">Apellido</label>
+                    <input class="controls" type="text" name="apellido"required><br>
+                    <label for="">Teléfono</label>
+                    <input class="controls" type="number"><br>
+                    <label for="">E-mail</label>
+                    <input class="controls" type="mail"><br>
+                    <label for="">Nueva contraseña</label>
+                    <input class="controls" type="password"><br>
+                    <label for="">Preguntas</label><br>
+                    <textarea class="controls" name="" id="" cols="10" rows="3" placeholder="formule sus preguntas"></textarea><br>
+                    <p>estoy de acuerdo con <a href="#">terminos y condiciones</a></p>
+                    <input class="botons" type="submit" value="registrar"><br>
+                    <input class="botons1" type="reset" value="Borrar">
+                    <p><a href="#">¿ya tengo cuenta?</a></p>
+                    
+                </form>
+            </section>
+            
+        <footer class="footer_servicios">
+            <p><strong>registrate como cliente y obtene beneficios!</strong></p>
+            <a href="#" class="subir">🐟</a>
+        </footer>
+</body>
+</html>
